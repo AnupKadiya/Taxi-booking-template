@@ -1,0 +1,193 @@
+
+@media screen and (max-width:1024px) {
+    .h2-head , .h2-head-tech , .h2-head-soft{
+        font-size: 44px;
+        line-height: 68px;
+    }
+    .descri , .soft-desc{
+        font-size: 20px;
+    }
+ 
+    .details-part{
+        font-size: 20px;
+    }
+    .card-display{
+        justify-content: center;
+    }
+    .card{
+        width: 40%;
+    }
+    .tab-section{
+    flex-wrap: wrap;
+    margin-top: 0;
+    }
+    .feature-box{
+        margin: 0;
+    }
+    .box-shad{
+        margin-inline: 30px;
+        margin-top: 30px;
+    }
+    
+}
+
+@media screen and (max-width:900px) {
+   
+    .feat-img{
+        width: 100%;
+    }
+    .col-flex{
+        gap: 50px;
+    }
+    .build{
+        gap: 50px;
+    }
+    .details-part{
+        font-size: 19px;
+        
+    }
+    .descri , .soft-desc{
+        font-size: 19px;
+    }
+    .feat-mobile-img{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .soft{
+        margin-top: 50px;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        margin-bottom: 50px;
+    }
+    .first-part , .second-part{
+        width: 100%;
+        justify-content: center;
+    }
+   
+    .app-development{
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+    .descri-part {
+        width: 100%;
+        order: 1;
+        
+    }
+    .tab-btn{
+        width: 100%;
+        text-align: center;
+    }
+    .card-dis{
+        justify-content: center;
+    }
+}
+@media screen and (max-width:789px) {
+    .chart-part{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .chart-img , .details-part{ 
+        width: 100%;
+    }
+    .openbtn{
+        display: block;
+    }
+    .head-menu-list{
+        display: none;
+    }
+    .h2-head, .h2-head-tech, .h2-head-soft {
+        font-size: 40px;
+    line-height: 60px;
+    }
+    .descri, .soft-desc , .details-part {
+        font-size: 18px;
+    }
+    .soft-desc{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .app-development{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .card{
+        width: 100%;
+    }
+    .h2-head, .h2-head-tech, .h2-head-soft {
+            font-size: 38px;
+            line-height: 55px;
+    }
+    .descri, .soft-desc, .details-part{
+        font-size: 17px;
+    }
+    .descri{
+        line-height: 28px;
+    }
+    .h2-head-soft::after {
+        bottom: -25px;
+    }
+    .head{
+        gap: 50px;  
+    }
+}
+@media  screen and (max-width:600px) {
+    .h2-head, .h2-head-tech, .h2-head-soft{
+        font-size: 36px;
+    }
+    .descri, .soft-desc, .details-part {
+        font-size: 16px;
+    }
+    .ver-line , .red-dot-line , .ver-line-trans , .img-div-trans , .head-css-trans{
+        display: none;
+    }
+    .col-part{
+        width: 100%;
+    }
+    .col-part:nth-of-type(odd) .head-css{
+        order: 1;
+    }
+    .row-part{
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+    .col-part{
+        height: auto;
+    }
+    .feat-card{
+        width: 18%;
+    }
+ 
+    .mobile-mockup{
+        display: flex;
+        justify-content: center;
+    }
+    .row-part{
+        gap: 20px;
+    }
+  
+}
+@media screen and (max-width:500px) {
+    .h2-head::after, .h2-head-tech::after, .h2-head-soft::after{
+        width: 200px;
+    }
+    .feat-card{
+        width: 30%;
+    }
+    .dark-bgs{
+        margin: 20px;
+    }
+    .h2-head, .h2-head-tech, .h2-head-soft{
+        font-size: 32px;
+    }
+
+}
+@media screen and (max-width:410px) {
+    .h2-head, .h2-head-tech, .h2-head-soft{
+        font-size: 30px;
+    }
+    
+}

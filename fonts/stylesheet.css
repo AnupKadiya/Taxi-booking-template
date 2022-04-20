@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Rubik-BlackItalic';
+    src: url('Rubik-BlackItalic.woff2') format('woff2'),
+        url('Rubik-BlackItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik-BoldItalic';
+    src: url('Rubik-BoldItalic.woff2') format('woff2'),
+        url('Rubik-BoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik-Black';
+    src: url('Rubik-Black.woff2') format('woff2'),
+        url('Rubik-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik-ExtraBold';
+    src: url('Rubik-ExtraBold.woff2') format('woff2'),
+        url('Rubik-ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik-Bold';
+    src: url('Rubik-Bold.woff2') format('woff2'),
+        url('Rubik-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik-Medium';
+    src: url('Rubik-Medium.woff2') format('woff2'),
+        url('Rubik-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url('Rubik-Regular.woff2') format('woff2'),
+        url('Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik-ExtraBoldItalic';
+    src: url('Rubik-ExtraBoldItalic.woff2') format('woff2'),
+        url('Rubik-ExtraBoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik-Italic';
+    src: url('Rubik-Italic.woff2') format('woff2'),
+        url('Rubik-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik-MediumItalic';
+    src: url('Rubik-MediumItalic.woff2') format('woff2'),
+        url('Rubik-MediumItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik-Light';
+    src: url('Rubik-Light.woff2') format('woff2'),
+        url('Rubik-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik-SemiBold';
+    src: url('Rubik-SemiBold.woff2') format('woff2'),
+        url('Rubik-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik-LightItalic';
+    src: url('Rubik-LightItalic.woff2') format('woff2'),
+        url('Rubik-LightItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik-SemiBoldItalic';
+    src: url('Rubik-SemiBoldItalic.woff2') format('woff2'),
+        url('Rubik-SemiBoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

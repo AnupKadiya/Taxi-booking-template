@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi-Booking Template</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+    <!-- header menu -->
+    <header>
+        <div class="container">
+            <div class="head-menu">
+                <div>
+                    <a href="#"><img src="../images/logo.webp" alt="logo" width="50%"></a>
+                </div>
+                <div>
+                    <ul class="head-menu-list">
+                        <li>
+                            <a href="#">
+                                <select name="about us" id="about-us">
+                                    <option value="">About us</option>
+                                    <option value="">Hello</option>
+                                </select>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <select name="about us" id="services">
+                                    <option value="">Services</option>
+                                    <option value="">Hello</option>
+                                </select>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="">portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#" class="red-btn">get in touch</a>
+                        </li>
+                    </ul>
+                    <div id="myNav" class="overlay">
+                        <!-- Button to close the overlay navigation -->
+                        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+                        <a href="javascript:void(0)" onclick="close_menu()" class="closebtn" id="close_menu">
+                            <div class="strip burger-strip">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </a>
+                        <!-- Overlay content -->
+                        <div class="overlay-content">
+                            <a href="#">HOME</a>
+                            <a href="#">PAGES</a>
+                            <a href="#">BLOG</a>
+                            <a href="#">PORTFOLIO</a>
+                            <a href="#">SHOP</a>
+                            <a href="#">FEATURES</a>
+                            <a href="#">ELEMENTS</a>
+                        </div>
+                    </div>
+
+                    <a href="javascript:void(0)" class="openbtn" onclick="open_menu()" id="openbtn">
+                        <div class="strip burger-strip">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- main image section -->
+    <section class="main-banner">
+
+        <video width="100%" style="object-fit: cover; max-height: inherit;" autoplay muted loop>
+            <source src="../images/Comp_1.mp4" type="video/mp4">
+        </video>
+        <div class="grad">
+        </div>
+    </section>
+    <!-- taxi app development service section -->
+    <section>
+        <div class="container">
+            <div class="app-development">
+                <div class="descri-part">
+                    <h2 class="h2-head">
+                        taxi app development services
+                    </h2>
+                    <p class="descri">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra
+                        nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus,
+                        tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.
+                        Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio,
+                        elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros
+                        sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio
+                        euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra.
+                        Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.
+                    </p>
+                </div>
+                <div class="img-part">
+                    <img src="../images/mobile.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- user wise feature section -->
+    <section>
+        <!-- heading section -->
+        <div class="container">
+            <div class="user-feature">
+                <h2 class="h2-head">
+                    user wise feature listing
+                </h2>
+            </div>
+        </div>
+        <!-- features section -->
+        <div class="box-shad">
+            <div class="feature-box">
+                <div class="container">
+                    <div class="col-flex">
+                        <div class="tab-section">
+                            <a href="javascript:void(0);" class="tab-btn active" id="user-side-btn"> user side feature
+                                listing</a>
+                            <a href="#driver-side-btn" class="tab-btn" id="driver-side-btn"> Driver feature list</a>
+                            <a href="javascript:void(0);" class="tab-btn" id="admin-side-btn"> Admin feature list</a>
+                        </div>
+                        <div class="feat-mobile-img">
+                            <div class="mobile-mockup">
+                                <img src="../images/mobile-mokeup.png" alt="" id="user">
+                                <img src="../images/mobile-mokeup-driver.png" alt="" id="driver" style="display: none;">
+                                <img src="../images/OT130Y1.png" alt="" id="admin" style="display: none;">
+                            </div>
+                            <div class="feat-img">
+                                <!-- User side Feature Listing -->
+                                <div class="card-dis" id="user-side">
+                                    <div class="feat-card">
+                                        <div class="img-sec">
+                                            <img src="../images/Target Location_745844.png" alt="target-location">
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="javascript:void(0);">select location</a>
+                                        </div>
+                                    </div>
+                                    <div class="feat-card">
+                                        <div class="img-sec">
+                                            <img src="../images/travel schedule_2291751.png" alt="target-location">
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="javascript:void(0);">sehedule a trip</a>
+                                        </div>
+                                    </div>
+                                    <div class="feat-card">
+                                        <div class="img-sec">
+                                            <img src="../images/Sedan_2921584.png" alt="target-location">
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="javascript:void(0);">select a Car</a>
+                                        </div>
+                                    </div>
+                                    <div class="feat-card">
+                                        <div class="img-sec">
+                                            <img src="../images/payment method_1777803.png" alt="target-location">
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="javascript:void(0);">Payment Method</a>
+                                        </div>
+                                    </div>
+                                    <div class="feat-card">
+                                        <div class="img-sec">
+                                            <img src="../images/noun_profile_1480238.png" alt="target-location">
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="javascript:void(0);">Ride Profile</a>
+                                        </div>
+                                    </div>
+                                    <div class="feat-card">
+                                        <div class="img-sec">
+                                            <img src="../images/due date_2247835.png" alt="target-location">
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="javascript:void(0);">Your Booking</a>
+                                        </div>
+                                    </div>
+                                    <div class="feat-card">
+                                        <div class="img-sec">
+                                            <img src="../images/Driver rating_497152.png" alt="target-location">
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="javascript:void(0);">Driver Ratingn</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Driver Feature List -->
+                                <div class="card-dis" style="display: none;" id="driver-side">
+                                    <div class="feat-card">
+                                        <div class="img-sec">
+                                            <img src="../images/Path 60.png" alt="target-location">
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="javascript:void(0);">Homepage</a>
+                                        </div>
+                                    </div>
+                                    <div class="feat-card">
+                                        <div class="img-sec">
+                                            <img src="../images/notification_2198529.png" alt="target-location">
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="javascript:void(0);">Notification</a>
+                                        </div>
+                                    </div>
+                                    <div class="feat-card">
+                                        <div class="img-sec">
+                                            <img src="../images/Online Check-in_3652086.png" alt="target-location">
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="javascript:void(0);">My Booking</a>
+                                        </div>
+                                    </div>
+                                    <div class="feat-card">
+                                        <div class="img-sec">
+                                            <img src="../images/earnings_2164277.png" alt="target-location">
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="javascript:void(0);">Earnings</a>
+                                        </div>
+                                    </div>
+                                    <div class="feat-card">
+                                        <div class="img-sec">
+                                            <img src="../images/reference_3344610.png" alt="target-location">
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="javascript:void(0);">Referral Driver</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Admin Features List -->
+                                <div class="card-dis" style="display:none;" id="admin-side">
+                                    <div class="feat-card">
+                                        <div class="img-sec">
+                                            <img src="../images/avatar_3597563.png" alt="target-location">
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="javascript:void(0);">User Management</a>
+                                        </div>
+                                    </div>
+                                    <div class="feat-card">
+                                        <div class="img-sec">
+                                            <img src="../images/Person and gear_352384.png" alt="target-location">
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="javascript:void(0);">Driver Management</a>
+                                        </div>
+                                    </div>
+                                    <div class="feat-card">
+                                        <div class="img-sec">
+                                            <img src="../images/noun_Work_1833873.png" alt="target-location">
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="javascript:void(0);">Earning Management</a>
+                                        </div>
+                                    </div>
+                                    <div class="feat-card">
+                                        <div class="img-sec">
+                                            <img src="../images/Group 84.png" alt="target-location">
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="javascript:void(0);">Commission Management </a>
+                                        </div>
+                                    </div>
+                                    <div class="feat-card">
+                                        <div class="img-sec">
+                                            <img src="../images/_report_2352712.png" alt="target-location">
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="javascript:void(0);">Manage reports</a>
+                                        </div>
+                                    </div>
+                                    <div class="feat-card">
+                                        <div class="img-sec">
+                                            <img src="../images/managing subordinate_885597.png" alt="target-location">
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="javascript:void(0);">Manage Refferal</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- how we build section -->
+    <section>
+        <div class="container">
+            <div class="build">
+                <div>
+                    <h2 class="h2-head">
+                        how we build project?
+                    </h2>
+                </div>
+                <div class="row-part">
+                    <div class="col-part">
+                        <div class="head-css">
+                            <p>requirement analysis</p>
+                        </div>
+                        <div class="img-div"><img src="../images/analysis_3165975.png" alt=""></div>
+                        <div class="ver-line"></div>
+                        <div class="red-dot-line">
+                            <div class="line"></div>
+                            <div class="red-dot"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="ver-line-trans"></div>
+                        <div><img src="../images/analysis_3165975.png" alt="" class="img-div-trans"></div>
+                        <div class="head-css-trans">
+                            <p>reqyirement analysis</p>
+                        </div>
+                    </div>
+                    <div class="col-part">
+                        <div class="head-css">
+                            <p>requirement analysis</p>
+                        </div>
+                        <div class="img-div"><img src="../images/designing_2356588.png" alt=""></div>
+                        <div class="ver-line"></div>
+                        <div class="red-dot-line">
+                            <div class="line"></div>
+                            <div class="red-dot"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="ver-line-trans"></div>
+                        <div><img src="../images/designing_2356588.png" alt="" class="img-div-trans"></div>
+                        <div class="head-css-trans">
+                            <p>reqyirement analysis</p>
+                        </div>
+                    </div>
+                    <div class="col-part">
+                        <div class="head-css">
+                            <p>requirement analysis</p>
+                        </div>
+                        <div class="img-div"><img src="../images/development process_4116612.png" alt=""></div>
+                        <div class="ver-line"></div>
+                        <div class="red-dot-line">
+                            <div class="line"></div>
+                            <div class="red-dot"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="ver-line-trans"></div>
+                        <div><img src="../images/development process_4116612.png" alt="" class="img-div-trans"></div>
+                        <div class="head-css-trans">
+                            <p>reqyirement analysis</p>
+                        </div>
+                    </div>
+                    <div class="col-part">
+                        <div class="head-css">
+                            <p>requirement analysis</p>
+                        </div>
+                        <div class="img-div"><img src="../images/testing_2699753.png" alt=""></div>
+                        <div class="ver-line"></div>
+                        <div class="red-dot-line">
+                            <div class="line"></div>
+                            <div class="red-dot"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="ver-line-trans"></div>
+                        <div class="img-div-trans"><img src="../images/testing_2699753.png" alt=""></div>
+                        <div class="head-css-trans">
+                            <p>reqyirement analysis</p>
+                        </div>
+                    </div>
+                    <div class="col-part">
+                        <div class="head-css">
+                            <p>requirement analysis</p>
+                        </div>
+                        <div class="img-div"><img src="../images/Group 154.png" alt=""></div>
+                        <div class="ver-line"></div>
+                        <div class="red-dot-line">
+                            <div class="line"></div>
+                            <div class="red-dot"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="ver-line-trans"></div>
+                        <div><img src="../images/Group 154.png" alt="" class="img-div-trans"></div>
+                        <div class="head-css-trans">
+                            <p>reqyirement analysis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+    <!--trends section-->
+    <section>
+        <div class="container">
+            <div class="trend">
+                <div>
+                    <h2 class="h2-head">
+                        Trends
+                    </h2>
+                </div>
+            </div>
+            <div class="three-chart">
+                <div class="chart-part">
+                    <div class="chart-img">
+                        <img src="../images/01.png" alt="">
+                    </div>
+                    <div class="details-part">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu
+                            pharetra
+                            nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed
+                            rhoncus,
+                            tortor sed eleifend tristique, tortor mauris molestie
+                        </p>
+                    </div>
+                </div>
+                <div class="chart-part row-rev">
+                    <div class="chart-img">
+                        <img src="../images/03.png" alt="">
+                    </div>
+                    <div class="details-part" style="text-align: left;">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu
+                            pharetra
+                            nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed
+                            rhoncus,
+                            tortor sed eleifend tristique, tortor mauris molestie
+                        </p>
+                    </div>
+                </div>
+                <div class="chart-part">
+                    <div class="chart-img">
+                        <img src="../images/1.png" alt="">
+                    </div>
+                    <div class="details-part">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu
+                            pharetra
+                            nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed
+                            rhoncus,
+                            tortor sed eleifend tristique, tortor mauris molestie
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- why choose us section -->
+    <section>
+        <div class="container">
+            <div class="why">
+                <div class="heading-sec">
+                    <h2 class="h2-head">
+                        Why Choose Us?
+
+                    </h2>
+                    <p class="descri">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra
+                        nec, mattis ac neque. Duis vulputate commodo
+                    </p>
+                </div>
+                <div class="card-display">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../images/clipart3.png" alt="">
+                        </div>
+                        <div>
+                            <p class="card-desc">
+                                Reduction in the costs of your IT
+                                operations
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../images/clipart4.png" alt="">
+                        </div>
+                        <div>
+                            <p class="card-desc">
+                                Business-friendly solutions for your business
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../images/clipart3.png" alt="">
+                        </div>
+                        <div>
+                            <p class="card-desc">
+                                Business-friendly solutions for your business
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../images/clipart3.png" alt="">
+                        </div>
+                        <div>
+                            <p class="card-desc">
+                                Maximum profits as your IT is our responsibility
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../images/clipart3.png" alt="">
+                        </div>
+                        <div>
+                            <p class="card-desc">
+                                360-degree approach along with great experience
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../images/clipart3.png" alt="">
+                        </div>
+                        <div>
+                            <p class="card-desc">
+                                Paradigm Shift in your approach so that you can focus on core business
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- techcnology we used -->
+    <section>
+        <div class="dark-bgs">
+            <div class="container">
+                <div class="tech-sec">
+                    <div>
+                        <h2 class="h2-head-tech">
+                            Technology We Used
+                        </h2>
+                    </div>
+                    <div class="logo">
+                        <div>
+                            <img src="../images/Android studio.png" alt="">
+                        </div>
+                        <div>
+                            <img src="../images/java.png" alt="">
+                        </div>
+                        <div>
+                            <img src="../images/kotlin.png" alt="">
+                        </div>
+                        <div>
+                            <img src="../images/mongodb.png" alt="">
+                        </div>
+                        <div>
+                            <img src="../images/mysql.png" alt="">
+                        </div>
+                        <div>
+                            <img src="../images/objective c.png" alt="">
+                        </div>
+                        <div>
+                            <img src="../images/Swift.png" alt="">
+                        </div>
+                        <div>
+                            <img src="../images/XCODE.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- taxi dispatch section -->
+    <section>
+        <div class="container">
+            <div class="soft">
+                <div class="first-part">
+                    <div class="head">
+                        <h2 class="h2-head-soft">
+                            Perks of Our Taxi Dispatch Software
+                        </h2>
+                        <div class="soft-desc">
+                            <p>
+                                Teaming up with us to personalise your taxi app provides you with extraordinary
+                                benefits.
+                            </p>
+                            <p>
+                                Let's get straight into the list of incredible advantages that come with our Taxi
+                                Dispatch System.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-part">
+                    <div class="col-1">
+                        <div class="img-rel">
+                            <img src="../images/Mask Group 2.png" alt="" style="height: 100%;">
+                            <div class="overlay-text">
+                                <div class="text">
+                                    Lorem Ipsum
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-rel">
+                            <img src="../images/Mask Group 4.png" alt="" style="height: 100%;">
+                            <div class="overlay-text">
+                                <div class="text">
+                                    Lorem Ipsum
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="img-rel">
+                            <img src="../images/Mask Group 3.png" alt="" style="height: 100%;">
+                            <div class="overlay-text">
+                                <div class="text">
+                                    Lorem Ipsum
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-rel">
+                            <img src="../images/Mask Group 5.png" alt="" style="height: 100%;">
+                            <div class="overlay-text">
+                                <div class="text">
+                                    Lorem Ipsum
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#driver-side-btn').click(function (e) {
+                e.preventDefault();
+                $('#driver-side').css("display", "flex");
+                $('#user-side').css("display", "none");
+                $('#admin-side').css("display", "none");
+                $('#driver-side-btn').addClass('active');
+                $('#user-side-btn').removeClass('active');
+                $('#admin-side-btn').removeClass('active');
+                $('#driver').css("display", "block");
+                $('#admin').css("display", "none");
+                $('#user').css("display", "none");
+
+            });
+            $('#admin-side-btn').click(function (e) {
+                e.preventDefault();
+                $('#driver-side').css("display", "none");
+                $('#user-side').css("display", "none");
+                $('#admin-side').css("display", "flex");
+                $('#admin-side-btn').addClass('active');
+                $('#user-side-btn').removeClass('active');
+                $('#driver-side-btn').removeClass('active');
+                $('#driver').css("display", "none");
+                $('#admin').css("display", "block");
+                $('#user').css("display", "none");
+            });
+            $('#user-side-btn').click(function (e) {
+                e.preventDefault();
+                $('#driver-side').css("display", "none");
+                $('#user-side').css("display", "flex");
+                $('#admin-side').css("display", "none");
+                $('#user-side-btn').addClass('active');
+                $('#driver-side-btn').removeClass('active');
+                $('#admin-side-btn').removeClass('active');
+                $('#driver').css("display", "none");
+                $('#admin').css("display", "none");
+                $('#user').css("display", "block");
+
+            });
+        });
+    </script>
+    <script>
+        function open_menu() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+        /* Close when someone clicks on the "x" symbol inside the overlay */
+        function close_menu() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+
+    </script>
+
+</body>
+
+</html>
